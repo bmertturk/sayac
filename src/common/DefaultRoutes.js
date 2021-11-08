@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import RequireAuth from "./RequireAuth"
 import ContentLayout from "../layouts/ContentLayout"
 import Home from "../templates/Home"
 import Login from "../templates/Login"
