@@ -6,7 +6,7 @@ const Login = () => {
 	const [password, setPassword] = useState('123456')
 
 	async function submitLogin() {
-		await fetch('http://159.223.22.102/api/getAuth', {
+		await fetch('https://159.223.22.102/api/getAuth', {
 			method: 'POST',
 			body: JSON.stringify({
 				'email': username,
