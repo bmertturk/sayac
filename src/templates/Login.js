@@ -8,7 +8,6 @@ const Login = () => {
 	async function submitLogin() {
 		await fetch('https://www.geriyesay.com/api/getAuth', {
 			method: 'POST',
-			mode: 'no-cors',
 			body: JSON.stringify({
 				'email': username,
 				'password': password
